@@ -1,0 +1,36 @@
+Milestone 1: Plot Procedural Generator
+Objective: Create an algorithm that generates basic plot structures (beginning, conflict, resolution) with variables for characters, settings, and key events.
+User Stories:
+- As a GM, I want to generate a plot outline so that I can quickly create a campaign setting.
+- As a solo player, I want to receive a plot that adjusts based on my character's actions and choices.
+- As a writer, I want to generate a plot based on Lester Dent's Plot formula
+
+Milestone 2: NPC (or Character) Procedural Generator
+Objective: Develop a system for generating dynamic NPCs with personalities, motivations, and backgrounds. This could also be used by writers for character creation.
+User Stories:
+- As a GM, I want to quickly create NPCs to populate my world without having to detail every aspect from scratch.
+- As a player, I want NPCs in my solo campaign to have depth and react logically to my actions.
+- As a writer, I want to generate a NPCs/Characters that would fit with a Lester Dent Plot formula.
+
+Milestone 3: Encounter Procedural Generator
+Objective: Build an encounter generator that creates challenging and engaging scenarios based on the player's level, environment, and story context.
+User Stories:
+- As a GM, I want to generate encounters appropriate for my party's level and the story's setting.
+- As a solo player, I want encounters that are balanced and integrate smoothly into the narrative.
+
+Milestone 4: Campaign Procedural Generator (Epic)
+Objective: Integrate the plot, NPC, and encounter generators to create comprehensive campaigns. This includes linking plots, NPCs, and encounters in a coherent narrative arc.
+User Stories:
+- As a GM, I want to generate a full campaign with interconnected plots, NPCs, and encounters to minimize preparation time.
+- As a solo player, I want a campaign that feels tailored to my character, with story progression that adapts to my decisions.
+
+Milestone 5: "Oracle" Type Generator for Solo Play
+Objective: Develop an "Oracle" system that can answer player queries, make decisions, and guide the narrative in the absence of a GM.
+User Stories:
+- As a solo player, I want a system that can act as a GM, providing narrative guidance, making adjudications, and keeping the story moving.
+
+Tech Stack
+- backend: Python (using Django) for complex logic handling, procedural generation algorithms and database ops
+- frontend: React
+- Database: MongoDB. Data structure is JSON
+- Additional tools: ChatGPT API for basic assist with generation, WebSockets for front to back communication. Figma for UI design. Github for version control. 
